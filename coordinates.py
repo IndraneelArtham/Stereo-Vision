@@ -10,7 +10,7 @@ def mouse_callback(event, x, y, flags, param):
         print(f"Mouse position: ({x}, {y})")
 
 # Load an image or create a blank one
-image = cv2.imread('Images/img10.png')  # Replace with your image path
+image = cv2.imread('Images/img_test.png')  # Replace with your image path
 # if image is None:
 #     # Create a blank image if no image is loaded
 #     image = cv2.imread('blank_image.png')
